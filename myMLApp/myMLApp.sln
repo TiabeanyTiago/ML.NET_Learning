@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myMLApp", "myMLApp.csproj", "{92993AFC-C6DB-4250-9E98-AC757CBCA79E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentModel_WebApi", "..\SentimentModel_WebApi\SentimentModel_WebApi.csproj", "{FAE4327D-CF8E-4EA8-B66C-99E201C54973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92993AFC-C6DB-4250-9E98-AC757CBCA79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92993AFC-C6DB-4250-9E98-AC757CBCA79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92993AFC-C6DB-4250-9E98-AC757CBCA79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92993AFC-C6DB-4250-9E98-AC757CBCA79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE4327D-CF8E-4EA8-B66C-99E201C54973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE4327D-CF8E-4EA8-B66C-99E201C54973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE4327D-CF8E-4EA8-B66C-99E201C54973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE4327D-CF8E-4EA8-B66C-99E201C54973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18A2BD2F-2FDB-4ABA-A2D1-1BEFD9327956}
+	EndGlobalSection
+EndGlobal
